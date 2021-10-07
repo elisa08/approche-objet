@@ -22,7 +22,47 @@ public class Personne {
 		this.firstName = firstName;
 		this.adressePersonne = adressePersonne;
 		
+		
+		
+		
+	}
+	public String transformNomPrenom(String name,String firstname) {
+		
+		name.toUpperCase();
+		firstName.toUpperCase();
+		
+		return name + firstname;
+		
 	}
 	
+	public void changeNom(String newname) {
+		
+		name= newname;
+		
+		
+	}
+	public String AfficherNom() {
+		
+		return name;
+		
+	}
+
+	public String AfficherPrenom() {
+
+		return firstName;
+
+	}
+	
+	public  AdressePostale afficheAdresse() {
+		
+		return  adressePersonne;
+		
+	}
+	
+	public void changerAdresse(AdressePostale nouvelleAdresse) {
+		
+		adressePersonne= nouvelleAdresse;
+		
+	}
 	
 }

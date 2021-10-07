@@ -12,6 +12,10 @@ public class tesPersonne {
 		 
 		 Personne per1= new Personne("jean","Pierre",adr1);
 		 
+		 Personne per2= new Personne("jean","Pierre");
+		 AdressePostale adr2= new AdressePostale(8,"allee Pierre Carabasse",34080,"Montpellier");
+		 per1.changerAdresse(adr2);
+		 
 //		 per1.nom="Jean";
 //		 
 //		 per1.prenom="Pierre";
