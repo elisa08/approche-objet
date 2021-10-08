@@ -5,31 +5,31 @@ package fr.diginamic.entites;
  *
  */
 public class Compte {
-		private long numeroCompte;
+		private String numeroCompte;
 		private int solde;
-		
-		public Compte(long numeroCompte, int solde) {
+		public Compte(String numeroCompte, int solde) {
 			super();
 			this.numeroCompte = numeroCompte;
 			this.solde = solde;
 		}
-
-		public long getNumeroCompte() {
+		public String getNumeroCompte() {
 			return numeroCompte;
 		}
-
-		public void setNumeroCompte(long numeroCompte) {
+		public void setNumeroCompte(String numeroCompte) {
 			this.numeroCompte = numeroCompte;
 		}
-
 		public int getSolde() {
 			return solde;
 		}
-
 		public void setSolde(int solde) {
 			this.solde = solde;
 		}
 		
+	
+		public String toString() {
+			
+			return numeroCompte +" "+ solde;
+		}
 		
 		
 		
