@@ -8,7 +8,7 @@ public class TestCompte {
 	Compte compte1= new Compte(1222223300,500);
 	
 	
-	System.out.println(compte1);
+//	System.out.println(compte1);
 	
 	}
 }
