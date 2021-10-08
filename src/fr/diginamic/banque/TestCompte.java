@@ -1,6 +1,9 @@
 package fr.diginamic.banque;
 
+import java.util.Iterator;
+
 import fr.diginamic.entites.Compte;
+import fr.diginamic.entites.CompteTaux;
 
 public class TestCompte {
 	public static void main(String args[]) {
@@ -12,7 +15,19 @@ public class TestCompte {
 	
 	
 	
-	System.out.println(compte1.toString());
+	System.out.println(compte1);
+	
+	CompteTaux compteTaux= new CompteTaux("111255gg", 800,5);
+	
+	Compte[] compte= {compte1,compteTaux};
+	
+	
+	for (int i = 0; i<compte.length; i++) {
+		
+		System.out.println(compte[i]);
+		
+		
+	}
 	
 	}
 }
