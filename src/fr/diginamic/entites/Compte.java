@@ -29,6 +29,7 @@ public class Compte {
 		public String toString() {
 			
 			return numeroCompte +" "+ solde;
+			
 		}
 		
 		
