@@ -11,7 +11,7 @@ public abstract class Operation {
 	
 	public String toString() {
 		
-		return "Date "+ dateOperation + " montant "+ montant;
+		return "Date "+ dateOperation + " montant "+ montant +" "+ getType();
 	}
 
 	public String getDateOperation() {

@@ -17,7 +17,7 @@ public class TestOperationExecutable {
 	 
 	 for (int i = 0; i < operation.length; i++) {
 		
-		System.out.println(operation[i].getType()+operation[i]);
+		System.out.println(operation[i]);
 		
 	} 
 	 
