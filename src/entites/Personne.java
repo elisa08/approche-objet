@@ -26,12 +26,10 @@ public class Personne {
 		
 		
 	}
-	public String transformNomPrenom(String name,String firstname) {
+	public void transformNomPrenom() {
 		
-		name.toUpperCase();
-		firstName.toUpperCase();
+		System.out.println(name.toUpperCase()+firstName.toUpperCase());
 		
-		return name + firstname;
 		
 	}
 	
@@ -62,6 +60,7 @@ public class Personne {
 	public void changerAdresse(AdressePostale nouvelleAdresse) {
 		
 		adressePersonne= nouvelleAdresse;
+		
 		
 	}
 	
