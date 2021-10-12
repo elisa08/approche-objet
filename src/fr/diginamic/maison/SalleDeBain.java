@@ -1,0 +1,23 @@
+package fr.diginamic.maison;
+
+public class SalleDeBain extends Piece {
+
+	public SalleDeBain(double superficie, int numeroEtage) {
+		super(superficie, numeroEtage);
+		// TODO Auto-generated constructor stub
+	}
+
+	public String toString() {
+			
+			return "Salle de Bain";
+			
+		}
+
+
+
+	
+	
+	
+	
+
+}
