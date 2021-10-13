@@ -8,7 +8,7 @@ public class Salon extends Piece {
 	}
 
 	
-	public String toString() {
+	public String getType() {
 			
 			return "Salon";
 			

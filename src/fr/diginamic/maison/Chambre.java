@@ -7,7 +7,7 @@ public class Chambre extends Piece {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public String toString() {
+	public String getType() {
 		
 		return "Chambre";
 		

@@ -27,6 +27,6 @@ public abstract class Piece {
 		this.numeroEtage = numeroEtage;
 	}
 
-	
+	public abstract String getType();
 	
 }

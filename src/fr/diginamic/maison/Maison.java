@@ -73,7 +73,7 @@ public class Maison {
 
 	}
 	
-	public double superficieTypePiece(Piece pieceDonnee) {
+	public double superficieTypePiece(String pieceDonnee) {
 
 		double surface = 0;
 
@@ -81,7 +81,7 @@ public class Maison {
 			int nbEtage = piece[i].getNumeroEtage();
 
 			double superficie = piece[i].getSuperficie();
-			if (pieceDonnee.toString() == piece[i].toString()) {
+			if (piece[i].getType() .equals(pieceDonnee)) {
 
 				surface = superficie + surface;
 			}
@@ -91,13 +91,13 @@ public class Maison {
 
 	}
 	
-	public int nombrePiece(Piece pieceDonnee) {
+	public int nombrePiece(String pieceDonnee) {
 
 		int p = 0;
 
 		for (int i = 0; i < piece.length; i++) {
 		
-			if (pieceDonnee.toString() == piece[i].toString()) {
+			if (pieceDonnee.equals( piece[i].getType())) {
 
 				p++;
 			}

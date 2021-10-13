@@ -33,11 +33,11 @@ public class TestMaison {
 		SalleDeBain salleDeBain3= new SalleDeBain(-1, 0);
 		piecesRdc= maison.ajouterPiece(salleDeBain3);
 		
-		double superficieP= maison.superficieTypePiece(chambre);
+		double superficieP= maison.superficieTypePiece("Chambre");
 		double superficieRdc= maison.superficieEtage(1);
 		double surfaceT= maison.superficieTotale();
 		
-		int nbPiece= maison.nombrePiece(chambre);
+		int nbPiece= maison.nombrePiece("Chambre");
 		
 		for (int i = 0; i < piecesRdc.length; i++) {
 			
@@ -50,7 +50,7 @@ public class TestMaison {
 		System.out.println("Superficie du première étage : "+superficieRdc+"m2");	
 		System.out.println("Superficie totale : "+surfaceT+"m2");
 		System.out.println("Superficie d'un même type de pièce : "+superficieP);
-		System.out.println("Il y a "+nbPiece+" "+chambre.toString()+"s");
+		System.out.println("Il y a "+nbPiece+" "+chambre.getType()+"s");
 		
 
 	}

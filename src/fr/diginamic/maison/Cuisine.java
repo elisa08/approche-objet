@@ -8,7 +8,7 @@ public class Cuisine extends Piece {
 	}
 
 
-	public String toString() {
+	public String getType() {
 			
 			return "Cuisine";
 			

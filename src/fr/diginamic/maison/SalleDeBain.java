@@ -7,7 +7,7 @@ public class SalleDeBain extends Piece {
 		// TODO Auto-generated constructor stub
 	}
 
-	public String toString() {
+	public String getType() {
 			
 			return "Salle de Bain";
 			
